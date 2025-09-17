@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct VehicleCompanionApp: App {
@@ -13,5 +14,6 @@ struct VehicleCompanionApp: App {
         WindowGroup {
             RootView()
         }
+        .modelContainer(for: [Vehicle.self])
     }
 }
