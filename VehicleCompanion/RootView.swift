@@ -10,10 +10,10 @@ import SwiftUI
 struct RootView: View {
     var body: some View {
         TabView {
-            NavigationStack { Text("Garage") }
+            NavigationStack { GarageView() }
                 .tabItem { Label("Garage", systemImage: "car.fill") }
             
-            NavigationStack { Text("Places") }
+            NavigationStack { PlacesView() }
                 .tabItem { Label("Places", systemImage: "map.fill") }
         }
     }
