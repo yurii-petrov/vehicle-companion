@@ -1,3 +1,10 @@
+//
+//  Vehicle.swift
+//  VehicleCompanion
+//
+//  Created by Yurii Petrov on 22.09.2025.
+//
+
 import Foundation
 import SwiftData
 
@@ -11,7 +18,7 @@ final class Vehicle {
     var vin: String
     var fuelType: String
     var heroImageData: Data?
-
+    
     init(
         id: UUID = UUID(),
         name: String,
